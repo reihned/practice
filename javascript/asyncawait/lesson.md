@@ -12,9 +12,13 @@ Pre-Requisite Knowledge
 
 
 Pre-Requisite Installs
-1. Web Server for Chrome
-    - https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en
-2. 
+- Web Server for Chrome
+    - https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+or  
+
+- VSCode Live Server
+    - https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 Expected Outcome
 
@@ -22,3 +26,8 @@ A student should...
 1. have a basic idea on how to use async await.
 2. know when best appropriate to use async await.
 3. know how to handle errors with async await.
+
+Outline
+1. Promise review
+2. Convert promises to async await
+3. How do we handle errors?

@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Async Await Practice</title>
+    <title>Promises Practice</title>
 </head>
 <body>
     <pre id="students">
@@ -11,7 +11,9 @@
     </pre>
 </body>
 <script type="module">
-    import * as asyncawait from './asyncawait.js';
+    import * as promises from './promises.js';
 
+    promises.getStudents()
+        .then(promises.displayStudents);
 </script>
 </html>
