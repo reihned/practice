@@ -13,5 +13,11 @@
 <script type="module">
     import * as asyncawait from './asyncawait.js';
 
+    async function showStudents(){
+        let students = await asyncawait.getStudents();
+        asyncawait.displayStudents(students);
+    }
+
+    showStudents();
 </script>
 </html>
