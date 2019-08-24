@@ -14,9 +14,17 @@
     import * as asyncawait from './asyncawait.js';
 
     async function showStudents(){
-        let students = await asyncawait.getStudents();
+        let students;
+        try {
+            students = await asyncawait.getStudents();
+        } catch (error) { // catch errors
+            console.error(error); // and log
+        }
         asyncawait.displayStudents(students);
-    }
+    } // await only works within an async function
+
+    // asyncawait.getStudents()
+    //  .then(asyncawait.displayStudents);
 
     showStudents();
 </script>

@@ -6,9 +6,8 @@ Pre-Requisite Knowledge
 2. JavaScript basics
 3. Displaying HTML using JavaScript
 4. JavaScript scope
-5. Callbacks and what they are used for
 6. Promises and what they are used for
-7. use of browser native fetch
+7. browser native fetch
 
 
 Pre-Requisite Installs
@@ -19,6 +18,7 @@ or
 
 - VSCode Live Server
     - https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
 
 Expected Outcome
 

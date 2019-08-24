@@ -2,9 +2,12 @@
  * Sample async await code for review
  */
 
-async function getStudents() {
+async function getStudents() { // async = return new promise
+    // first fetch the student data
     let response = await fetch("students.json");
-    return response.json();
+    // then return the data as a javascript object
+    let response_json = response.json();
+    return response_json; // here return is similar to resolve
 }
 
 function displayStudents(response_json) {
