@@ -1,16 +1,17 @@
 Intro to Async Await
 
-Pre-Requisite Knowledge
+Prerequisite Knowledge
 
 1. HTML Basics
-2. JavaScript basics
-3. Displaying HTML using JavaScript
+2. Displaying HTML using JavaScript
+3. JavaScript basics
 4. JavaScript scope
+5. Asyncronous Javascript
 6. Promises and what they are used for
 7. browser native fetch
 
 
-Pre-Requisite Installs
+Prerequisite Installs
 - Web Server for Chrome
     - https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
@@ -29,5 +30,6 @@ A student should...
 
 Outline
 1. Promise review
-2. Convert promises to async await
-3. How do we handle errors?
+2. Promises comparison to async await
+3. Rules of async await
+4. How to handle errors
