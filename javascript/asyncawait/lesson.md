@@ -1,4 +1,4 @@
-Intro to Async Await
+Intro to Async/Await
 
 Prerequisite Knowledge
 
@@ -30,6 +30,6 @@ A student should...
 
 Outline
 1. Promise review
-2. Promises comparison to async await
-3. Rules of async await
+2. Promises comparison to Async/Await
+3. Rules of Async/Await
 4. How to handle errors
